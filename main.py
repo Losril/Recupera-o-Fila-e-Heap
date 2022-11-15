@@ -456,5 +456,3 @@ if __name__ == "__main__":
   print(f'Tempo de busca: {round(sum(timesearch1)/50,3)} ms')
   print(f'Tempo de remoção: {round(sum(timeerase1)/50,3)} ms')
   print(f'Tempo de nova inserção: {round(sum(timeinsert)/50,3)} ms')
- 
-  
