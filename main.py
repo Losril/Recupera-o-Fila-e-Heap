@@ -319,8 +319,8 @@ class MinHeap:
   
   def printHeapList(self):
     for i in range(1, (self.size//2)+1):
-      print(" PARENT : "+ str(self.heapList.get(i)) + " LEFT CHILD : "+ 
-                          str(self.heapList.get(2 * i)) + " RIGHT CHILD :"                       +  str(self.heapList.get(2 * i + 1)) + "\n")
+      print("PARENT : "+ str(self.heapList.get(i)) + "\nLEFT CHILD : "+ 
+                          str(self.heapList.get(2 * i)) + "\nRIGHT CHILD :"                       +  str(self.heapList.get(2 * i + 1)) + "\n")
   
   def minHeapify(self, pos):
     if not self.isLeaf(pos):
